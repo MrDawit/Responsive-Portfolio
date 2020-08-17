@@ -1,5 +1,39 @@
 
 body {
-    background-image: url ('./assets/images/bgimage.jpg') repeat;
+    background: url ('./assets/images/bgimage.jpg') repeat;
     
+}
+
+h2{
+    
+}
+
+ul{
+    
+}
+
+.navbar{
+    position:fixed;
+    top:0;
+    width:100%;
+    color:purple;
+
+}
+
+.navbar a {
+    float:right;
+    text-align:center;
+    
+  
+    
+}
+
+main{
+    margin-top:60px;
+
+}
+h1{
+    text-decoration:line;
+    color:greenyellow;
+    size: 22px;
 }
