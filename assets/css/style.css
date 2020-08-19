@@ -26,6 +26,7 @@ main{
     background-color:white;
     width: 60%;
     
+    
 }
 
 article{
@@ -35,7 +36,7 @@ article{
 
 h1{
     text-decoration:line;
-    color:darkred;
+    
     size: 22px;
 }
 
@@ -57,16 +58,17 @@ nav{
     top:0;
     right:0;
     width:100%;
-    
+    background-color:gold;
+    z-index:300;
 }
 
 .navbar button{
-    align-content: right;
+    background-color:purple;
 }
 
 .navbar a {
     float:right;
-    text-align:center;
+    color:silver;
 
   
     
