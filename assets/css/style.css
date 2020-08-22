@@ -131,3 +131,9 @@ main img{
     transform: translate(-50%, -50%);
     text-align: center;
   }
+
+
+
+  @media screen and (max-width:800px) {
+    .left, .main, .right {
+      width:100%; 
