@@ -13,7 +13,6 @@ style.css
 
 future aspects that need could be improved:
 blended borders,
-metalic and sharp edges for design(maybe more professional or business minded), 
-fix background issues, 
+metalic and sharp edges for design(maybe more professional or business minded),  
 change portfolio images' css to css sprites, 
 change "align" attribute to something more html5  

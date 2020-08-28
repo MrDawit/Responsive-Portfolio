@@ -1,83 +1,15 @@
-/* still cant get background image to work */
+
 body {
-    background: url ('./assets/images/bgimage.jpg');
-    background-color:blueviolet;
-    padding:80px;
+    background-image: url("../images/bgimage.jpg");
+  /*  background-color:blueviolet; */
+    background-image:repeat;
+    padding:150px;
 }
-
-h2{
-    
-}
-
-ul{
-    
-}
-
-
-
-
-main{
-    margin-top:60px;
-    border-style: inset;
-    border-color: indigo;
-    box-sizing: border-box;
-    padding-top:20px;
-   /*padding-right:20px;*/
-    padding-bottom:20px;
-    padding-left:20px;
-    background-color:white;
-    width: 60%;
-    
-    
-}
-
-article{
-    width:90%;
-
-}
-
-h1{
-    text-decoration-color: goldenrod;
-    text-decoration:double overline;
-    size: 22px;
-}
-/*for now, I like the professional look of only the overline 
-h1 span{
-    text-decoration:double underline;
-    text-decoration-color: indigo;
-}
-*/
-
-footer{
-    position:fixed;
-    bottom:0;
-    right:50%;
-    text-align:center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color:gold;
-    border-style:solid;
-    border-width:2px;
-    border-color: rgb(23, 2, 37);
-    padding:2px 2px 0px 2px;
-}
-
-/*footer section{
-    background-color:gold;
-    border-style:solid;
-    border-width:5px;
-    border-color: rgb(23, 2, 37);
-}
-*/
 
 nav{
     border-style:solid;
     border-width:5px;
     border-color: rgb(23, 2, 37);
-}
-
-main img{
-    width:350px;
-    height:350px;
 }
 
 .navbar{
@@ -90,13 +22,78 @@ main img{
 }
 
 .navbar button{
+    border-radius:95%;
     background-color:purple;
+   /*only work if .navbar button has a .hover
+    transform: translateY(4px);*/
 }
-
 .navbar a {
     float:right;
-    color:silver;   
+    color:silver;
+    text-decoration:none;   
 }
+.navbar a:hover {
+    color:black;
+}
+#red{
+    box-shadow: 0 5px red;
+}
+#red:hover{
+    background-color:red;
+}
+#green{
+    box-shadow: 0 5px green;
+}
+#green:hover{
+    background-color:green;
+}
+#blue{
+    box-shadow: 0 5px blue;
+}
+#blue:hover{
+    background-color:blue;
+}
+
+main {
+    margin-top:60px;
+    border-style: inset;
+    border-color: indigo;
+    box-sizing: border-box;
+    padding-top:20px;
+   /*padding-right:20px;*/
+    padding-bottom:20px;
+    padding-left:20px;
+    background-color:white;
+    width: 60%;
+}
+
+#main_portfolio {
+    width:85%;
+}
+
+main img{
+    height:350px;
+}
+
+article{
+    width:90%;
+}
+
+h1{
+    text-decoration-color: goldenrod;
+    text-decoration:double overline;
+    size: 22px;
+    
+}
+
+/*for now, I like the professional look of only the overline
+h1 span{
+    text-decoration:double underline;
+    text-decoration-color: indigo;
+}
+*/
+
+
 
 /*might change to css sprites for links on images and hover*/
 .overlay {    
@@ -133,7 +130,28 @@ main img{
   }
 
 
+  footer{
+    position:fixed;
+    bottom:0;
+    right:5%;
+    text-align:center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:gold;
+    border-style:solid;
+    border-width:2px;
+    border-color: rgb(23, 2, 37);
+    padding:2px 2px 0px 2px;
+}
 
-  @media screen and (max-width:800px) {
+/*footer section{
+    background-color:gold;
+    border-style:solid;
+    border-width:5px;
+    border-color: rgb(23, 2, 37);
+}
+*/
+  @media screen and (max-width:768px) {
     .left, .main, .right {
       width:100%; 
+    }
+}
