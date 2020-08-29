@@ -21,16 +21,15 @@ nav{
     z-index:300;
 }
 
-.navbar button{
+.navbar a {
     border-radius:95%;
     background-color:purple;
-   /*only work if .navbar button has a .hover
-    transform: translateY(4px);*/
-}
-.navbar a {
     float:right;
     color:silver;
-    text-decoration:none;   
+    text-decoration:none; 
+    padding:8px; 
+    /*only work if .navbar button has a .hover
+    transform: translateY(4px);*/
 }
 .navbar a:hover {
     color:black;
@@ -71,8 +70,13 @@ main {
     width:85%;
 }
 
-main img{
+main img {
     height:350px;
+}
+
+#lightImage {
+    float:left;
+    padding:0px 20px 20px 0px;
 }
 
 article{
