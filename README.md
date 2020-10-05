@@ -1,18 +1,29 @@
- Project 2: Bootstrap Responsive Portfolio application
+# Bootstrap Responsive Portfolio application
+A portfolio website that was specific to the task but with encorporated elements that I wanted to try out and appreciated the look of.
+* live link: https://mrdawit.github.io/Responsive-Portfolio/
+<img src="#">
 
-included html files:
-index.html, portfolio.html, contact.html
+## Technologies Used
+* HTML
+* CSS
+* Bootstrap (css framework)
 
-included css files:
-style.css
+## Included Files
+* index.html
+* portfolio.html
+* contact.html
+* style.css
+* (images subfolder also included)
 
-*images subfolder also included
+## Notes
+* future aspects that need could be improved:
+* blended borders,
+* metalic and sharp edges for design (more professional and business minded),  
+* (maybe) change portfolio images' css to css sprites, 
+* change "align" attribute to something more html5  
 
-
--Tried to make a portfolio website that was specific to the task but encorporated elements that I wanted to try out and appreciated the look of.
-
-future aspects that need could be improved:
-blended borders,
-metalic and sharp edges for design(maybe more professional or business minded),  
-change portfolio images' css to css sprites, 
-change "align" attribute to something more html5  
+## Created By:
+Shalom Dawit\
+LinkedIn:https://www.linkedin.com/in/shalom-dawit-a0a5a4126 \
+GitHub:https://github.com/MrDawit \
+Email:Shalom.Dawit@gmail.com \
