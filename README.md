@@ -1,7 +1,7 @@
 # Bootstrap Responsive Portfolio application
 A portfolio website that was specific to the task but with encorporated elements that I wanted to try out and appreciated the look of.
 * live link: https://mrdawit.github.io/Responsive-Portfolio/
-<img src="#">
+<img src="./Shalom Dawit_Portfolio.mp4">
 
 ## Technologies Used
 * HTML
@@ -24,6 +24,6 @@ A portfolio website that was specific to the task but with encorporated elements
 
 ## Created By:
 Shalom Dawit\
-LinkedIn:https://www.linkedin.com/in/shalom-dawit-a0a5a4126 \
-GitHub:https://github.com/MrDawit \
-Email:Shalom.Dawit@gmail.com \
+LinkedIn: https://www.linkedin.com/in/shalom-dawit-a0a5a4126 \
+GitHub: https://github.com/MrDawit \
+Email: Shalom.Dawit@gmail.com 
