@@ -81,11 +81,12 @@ main img {
     max-width:350px;
 }
 
-#lightImage {
+#Image {
     float:left;
     padding:0px 20px 20px 0px;
     height:100%;
     width:60%;
+    max-width:300px;
 }
 
 article{
