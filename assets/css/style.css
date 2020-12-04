@@ -55,6 +55,25 @@ nav{
 #blue:hover{
     background-color:blue;
 }
+
+
+#purple{
+    box-shadow: 0 5px rgb(253, 142, 253);
+    border-radius:95%;
+    background-color:purple;
+    float:left;
+    color:silver;
+    text-decoration:none; 
+    padding:8px; 
+    /*only work if .navbar button has a .hover*/
+    transform: translateY(4px);
+}
+
+#purple:hover{
+    color: black;
+    background-color: grey;
+}
+
  
 main {
     margin:60px auto;
