@@ -108,6 +108,12 @@ main img {
     max-width:300px;
 }
 
+#contact_links img{
+  max-height: 40px;
+  max-width: 40px;
+
+}
+
 article{
     width:90%;
     padding-right:0px;
