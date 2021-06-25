@@ -88,12 +88,18 @@ main {
     background-color:white;
     width: 60%;
     overflow-y:scroll;
+    scrollbar-color: rgb(63, 62, 62) rgb(163, 163, 162)
 }
 
-#main_portfolio {
+#main_portfolio, #main_contact {
     width:85%;
+    background-color:rgb(110, 145, 173);
+    
 }
 
+#main_portfolio_header, #main_contact_header {
+    text-shadow: 4px 4px gold ;
+}
 main img {
     /* height:100%; */
     max-height:350px;
@@ -113,6 +119,13 @@ main img {
   max-height: 40px;
   max-width: 40px;
 
+}
+#contact_links a{
+    color: black;
+}
+
+#contact_links a:hover{
+    color: gold;
 }
 
 article{
@@ -223,6 +236,25 @@ h1 span{
     
 }
 
+#form_replacement{
+    background-color:rgb(135, 152, 167);
+}
+
+#form_replacement_message{
+    width:100%;
+    padding:100px 0px 100px 20px;
+    margin:20px 0px 20px 0px;
+    font-size: 40px;
+
+}
+
+#email{
+    color:black;
+}
+
+#email:hover{
+    color:gold;
+}
 /*footer section{
     background-color:gold;
     border-style:solid;
